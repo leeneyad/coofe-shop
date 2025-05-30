@@ -4,7 +4,7 @@ A modern and responsive coffee shop website built using **HTML**, **CSS**, and *
 
 ## 🌐 Live Preview
 
-(ضع هنا رابط GitHub Pages إذا نشرته لاحقًا)
+
 
 ## 📂 Features
 
@@ -21,7 +21,7 @@ A modern and responsive coffee shop website built using **HTML**, **CSS**, and *
 
 ## 📸 Screenshots
 
-(يمكنك إضافة صور لاحقًا هنا لتوضيح شكل الموقع)
+
 
 ## 🛠️ How to Use
 
