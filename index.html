@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="images/—Pngtree—coffee icon icon element_7186003.png">
+  <title>Fenjanak Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header + Navbar -->
+<header>
+  <div class="navbar">
+    <img src="images/Refined 'Fenjank' Coffee Brand Logo (1).png" alt="fenjank-logo" class="logo"> 
+    <h1>Cart | Fenjanak</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Start Your Day with a Perfect Coffee from us !</h2>
+    <br>
+    <p>Discover our most loved coffee types.</p>
+    <br>
+    <a href="menu.html" class="btn">Explore Menu</a>
+  </section>
+  <br>
+  <!-- Popular Coffee Types -->
+
+<section class="popular-coffee">
+  <h3>Most Popular Coffees</h3>
+  <br>
+  <div class="coffee-slider">
+    
+    <div class="coffee-card active">
+      <div class="card-content">
+        <img src="images/espresso.png" alt="Espresso" />
+        <div class="coffee-text">
+          <h4>Espresso</h4>
+          <p>A rich shot of espresso with deep flavor and a creamy finish.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="coffee-card">
+      <div class="card-content">
+        <img src="images/latte.png" alt="Latte" />
+        <div class="coffee-text">
+          <h4>Latte</h4>
+          <p>Smooth espresso blended with steamed milk and a hint of foam.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="coffee-card">
+      <div class="card-content">
+        <img src="images/spanish-latte.png" alt="Spanish Latte" />
+        <div class="coffee-text">
+          <h4>Spanish Latte</h4>
+          <p>Bold espresso mixed with sweetened condensed milk and steamed milk.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="coffee-card">
+      <div class="card-content">
+        <img src="images/white-mocha.png" alt="White Mocha" />
+        <div class="coffee-text">
+          <h4>White Mocha</h4>
+          <p>Rich white chocolate sauce blended with espresso and creamy milk.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+   <br><br>
+  <!-- adress -->
+    <section class="contact-info">
+      <h2>We'd love to hear from you!</h2>
+      <p>Got a question or just wanna say hi? Fill the form or find us below:</p>
+
+      <div class="contact-details">
+        <p><strong>Email:</strong> contact@fenjanak.com</p>
+        <p><strong>Phone:</strong> +962 7 9639 2052</p>
+        <p><strong>Location:</strong> Amman, Jordan</p>
+      </div>
+      <div class="contact-img">
+        <img src="images/contact.png" alt="contact" width="110px" height="100px">
+      </div>
+    </section>
+
+</main>
+<br><br>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Fenjanak. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/">Instagram <img src="images/instagram.png" alt="instagram" width="30px" height="30px"></a> |
+      <a href="https://web.facebook.com/?_rdc=1&_rdr#">Facebook <img src="images/facebook.png" alt="facebook" width="50px" height="50px"></a> |
+      <a href="https://en.wikipedia.org/wiki/TikTok">TikTok <img src="images/tiktok.png" alt="tiktok" width="50px" height="50px"></a>
+    </div>
+  
+    <hr class="section-divider">
+<div class="form-with-logo">  
+  <img src="images/Refined 'Fenjank' Coffee Brand Logo (1).png" alt="logo" class="form-logo" width="200px" height="200px">
+
+</div>        
+  </footer>
+<script>
+  const cards = document.querySelectorAll('.coffee-card');
+  let current = 0;
+
+  function showNextCard() {
+    cards[current].classList.remove('active');
+    current = (current + 1) % cards.length;
+    cards[current].classList.add('active');
+  }
+
+  setInterval(showNextCard, 2500); // كل 2.5 ثانية
+</script>
+</body>
+</html>
