@@ -28,4 +28,4 @@ A modern and responsive coffee shop website built using **HTML**, **CSS**, and *
 1. Download or clone the repository:
 
 ```bash
-git clone https://github.com/username/coffe2.git
+git clone https://github.com/leeneyad/coffe2.git
